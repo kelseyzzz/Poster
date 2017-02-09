@@ -1,0 +1,102 @@
+/* 
+==============================================
+CONTENT:	Project Name Here
+AUTHOR:		Your Name Here
+==============================================
+
+TABLE OF CONTENTS:
+
+1. Main Layout
+2. Content
+
+==============================================
+*/
+/* 1. Main Layout ================================= */
+* {
+  box-sizing: border-box; }
+
+html {
+  background: black;
+  width: 100%; }
+
+body {
+  width: 100%;
+  height: 100%; }
+
+/* 2. Content ================================= */
+.poster {
+  width: 895px;
+  height: 1266px;
+  margin: 100px auto;
+  border: 17px solid #ebdac8;
+  margin: 100px auto;
+  position: relative;
+  background: radial-gradient(ellipse at center, #160808 29%, #392a25 71%, #6a5c35 93%);
+  background-repeat: no-repeat; }
+  .poster .pan .circle {
+    position: absolute;
+    width: 500px;
+    top: 3%;
+    right: 202px;
+    transform: rotateX(48deg); }
+    .poster .pan .circle:hover {
+      animation: circle 5s;
+      animation-direction: reverse;
+      animation-fill-mode: forwards; }
+  .poster .pan .hand {
+    position: absolute;
+    width: 257px;
+    right: -1px;
+    top: 5%; }
+
+@keyframes circle {
+  0% {
+    transform: rotateX(0); }
+  100% {
+    transform: rotateX(50deg); } }
+
+.title h1 {
+  color: #f4e46d;
+  position: absolute;
+  top: 314px;
+  font-size: 3.5em;
+  left: 95px;
+  font-family: impact; }
+
+.explosion .boom {
+  position: absolute;
+  top: 50%;
+  left: 358px;
+  opacity: 0; }
+  .explosion .boom.blink {
+    opacity: 1;
+    transition-delay: 3.0s; }
+
+.explosion .boomm {
+  position: absolute;
+  top: 50%;
+  left: 358px;
+  opacity: 0; }
+
+.explosion .boommm {
+  position: absolute;
+  top: 50%;
+  left: 358px;
+  opacity: 0; }
+
+.explosion .boommmm {
+  position: absolute;
+  top: 50%;
+  left: 358px;
+  opacity: 0; }
+
+.bottom h2 {
+  color: #eae0d7;
+  position: absolute;
+  left: 46px;
+  font-size: 2.7em;
+  top: 1061px;
+  text-transform: uppercase;
+  font-family: helvetica; }
+
+/*# sourceMappingURL=main.css.map */
