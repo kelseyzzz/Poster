@@ -75,29 +75,29 @@ body {
 .explosion .boom-2 {
   position: absolute;
   top: 50%;
-  left: 358px;
+  left: 338px;
   opacity: 0; }
   .explosion .boom-2.blink-2 {
     opacity: 1;
-    transition-delay: 3.1s; }
+    transition-delay: 3.2s; }
 
 .explosion .boom-3 {
   position: absolute;
   top: 50%;
-  left: 358px;
+  left: 335px;
   opacity: 0; }
   .explosion .boom-3.blink-3 {
     opacity: 1;
-    transition-delay: 3.2s; }
+    transition-delay: 3.4s; }
 
 .explosion .boom-4 {
   position: absolute;
   top: 50%;
-  left: 358px;
+  left: 330px;
   opacity: 0; }
   .explosion .boom-4.blink-4 {
     opacity: 1;
-    transition-delay: 3.3s; }
+    transition-delay: 3.6s; }
 
 .bottom h2 {
   color: #eae0d7;

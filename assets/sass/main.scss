@@ -113,12 +113,12 @@ body {
 			.boom-2 {
 				position:absolute;
 				top: 50%;
-				left: 358px;
+				left: 338px;
 				opacity: 0;
 
 				&.blink-2 {
 					opacity: 1;
-					transition-delay: 3.1s;
+					transition-delay: 3.2s;
 
 				}
 			}
@@ -126,12 +126,12 @@ body {
 			.boom-3 {
 				position:absolute;
 				top: 50%;
-				left: 358px;
+				left: 335px;
 				opacity: 0;
 
 				&.blink-3 {
 					opacity: 1;
-					transition-delay: 3.2s;
+					transition-delay: 3.4s;
 
 				}
 			}
@@ -139,12 +139,12 @@ body {
 			.boom-4{
 				position:absolute;
 				top: 50%;
-				left: 358px;
+				left: 330px;
 				opacity: 0;
 
 				&.blink-4 {
 					opacity: 1;
-					transition-delay: 3.3s;
+					transition-delay: 3.6s;
 
 				}
 			}
