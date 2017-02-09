@@ -99,12 +99,83 @@ body {
     opacity: 1;
     transition-delay: 3.6s; }
 
+.explosion .boom-5 {
+  position: absolute;
+  top: 50%;
+  left: 330px;
+  opacity: 0; }
+  .explosion .boom-5.blink-5 {
+    opacity: 1;
+    transition-delay: 3.8s; }
+
+.explosion .boom-6 {
+  position: absolute;
+  top: 50%;
+  left: 330px;
+  opacity: 0; }
+  .explosion .boom-6.blink-6 {
+    opacity: 1;
+    transition-delay: 4.0s; }
+
+.explosion .boom-7 {
+  position: absolute;
+  top: 50%;
+  left: 330px;
+  opacity: 0; }
+  .explosion .boom-7.blink-7 {
+    opacity: 1;
+    transition-delay: 4.2s; }
+
+.explosion .boom-8 {
+  position: absolute;
+  top: 50%;
+  left: 330px;
+  opacity: 0; }
+  .explosion .boom-8.blink-8 {
+    opacity: 1;
+    transition-delay: 4.4s; }
+
+.explosion .boom-9 {
+  position: absolute;
+  top: 50%;
+  left: 330px;
+  opacity: 0; }
+  .explosion .boom-9.blink-9 {
+    opacity: 1;
+    transition-delay: 4.6s; }
+
+.explosion .boom-10 {
+  position: absolute;
+  top: 50%;
+  left: 330px;
+  opacity: 0; }
+  .explosion .boom-10.blink-10 {
+    opacity: 1;
+    transition-delay: 4.8s; }
+
+.explosion .boom-11 {
+  position: absolute;
+  top: 45%;
+  opacity: 0; }
+  .explosion .boom-11.blink-11 {
+    opacity: 1;
+    transition-delay: 5.0s; }
+
+.explosion .boom-12 {
+  position: absolute;
+  top: 500px;
+  left: 150px;
+  opacity: 0; }
+  .explosion .boom-12.blink-12 {
+    opacity: 1;
+    transition-delay: 5.2s; }
+
 .bottom h2 {
   color: #eae0d7;
   position: absolute;
   left: 46px;
   font-size: 2.7em;
-  top: 1061px;
+  top: 1117px;
   text-transform: uppercase;
   font-family: helvetica; }
 
