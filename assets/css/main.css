@@ -79,7 +79,7 @@ body {
   opacity: 0; }
   .explosion .boom-2.blink-2 {
     opacity: 1;
-    transition-delay: 3.2s; }
+    transition-delay: 3.1s; }
 
 .explosion .boom-3 {
   position: absolute;
@@ -88,7 +88,7 @@ body {
   opacity: 0; }
   .explosion .boom-3.blink-3 {
     opacity: 1;
-    transition-delay: 3.4s; }
+    transition-delay: 3.2s; }
 
 .explosion .boom-4 {
   position: absolute;
@@ -97,7 +97,7 @@ body {
   opacity: 0; }
   .explosion .boom-4.blink-4 {
     opacity: 1;
-    transition-delay: 3.6s; }
+    transition-delay: 3.3s; }
 
 .explosion .boom-5 {
   position: absolute;
@@ -106,7 +106,7 @@ body {
   opacity: 0; }
   .explosion .boom-5.blink-5 {
     opacity: 1;
-    transition-delay: 3.8s; }
+    transition-delay: 3.4s; }
 
 .explosion .boom-6 {
   position: absolute;
@@ -115,7 +115,7 @@ body {
   opacity: 0; }
   .explosion .boom-6.blink-6 {
     opacity: 1;
-    transition-delay: 4.0s; }
+    transition-delay: 3.5s; }
 
 .explosion .boom-7 {
   position: absolute;
@@ -124,7 +124,7 @@ body {
   opacity: 0; }
   .explosion .boom-7.blink-7 {
     opacity: 1;
-    transition-delay: 4.2s; }
+    transition-delay: 3.6s; }
 
 .explosion .boom-8 {
   position: absolute;
@@ -133,7 +133,7 @@ body {
   opacity: 0; }
   .explosion .boom-8.blink-8 {
     opacity: 1;
-    transition-delay: 4.4s; }
+    transition-delay: 3.7s; }
 
 .explosion .boom-9 {
   position: absolute;
@@ -142,7 +142,7 @@ body {
   opacity: 0; }
   .explosion .boom-9.blink-9 {
     opacity: 1;
-    transition-delay: 4.6s; }
+    transition-delay: 3.8s; }
 
 .explosion .boom-10 {
   position: absolute;
@@ -151,7 +151,7 @@ body {
   opacity: 0; }
   .explosion .boom-10.blink-10 {
     opacity: 1;
-    transition-delay: 4.8s; }
+    transition-delay: 3.9s; }
 
 .explosion .boom-11 {
   position: absolute;
@@ -160,7 +160,7 @@ body {
   opacity: 0; }
   .explosion .boom-11.blink-11 {
     opacity: 1;
-    transition-delay: 5.0s; }
+    transition-delay: 4.0s; }
 
 .explosion .boom-12 {
   position: absolute;
@@ -169,7 +169,7 @@ body {
   opacity: 0; }
   .explosion .boom-12.blink-12 {
     opacity: 1;
-    transition-delay: 5.2s; }
+    transition-delay: 4.1s; }
 
 .bottom h2 {
   color: #eae0d7;
