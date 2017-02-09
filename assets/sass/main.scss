@@ -110,25 +110,43 @@ body {
 				}
 			}
 
-			.boomm {
+			.boom-2 {
 				position:absolute;
 				top: 50%;
 				left: 358px;
 				opacity: 0;
+
+				&.blink-2 {
+					opacity: 1;
+					transition-delay: 3.1s;
+
+				}
 			}
 
-			.boommm {
+			.boom-3 {
 				position:absolute;
 				top: 50%;
 				left: 358px;
 				opacity: 0;
+
+				&.blink-3 {
+					opacity: 1;
+					transition-delay: 3.2s;
+
+				}
 			}
 
-			.boommmm {
+			.boom-4{
 				position:absolute;
 				top: 50%;
 				left: 358px;
 				opacity: 0;
+
+				&.blink-4 {
+					opacity: 1;
+					transition-delay: 3.3s;
+
+				}
 			}
 
 			
