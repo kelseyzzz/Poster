@@ -67,8 +67,22 @@ body {
 		}
 
 		.oil {
-			
+			top: 209px; 
+			left: 295px;
+			position: absolute;
+			width: 0%;
+			height: 0%;
+
+				&.move-oil {
+				transition-delay: 4.1s;
+				transition: width 4s, height 4s;
+				width: 154px;
+	    		height: 499px;
+				//animation-duration: 10s;
+			}	
 		}
+
+			
 		
 		.hand {
 			position: absolute;
@@ -87,6 +101,7 @@ body {
 	    transform: rotateX(50deg); 
 	  } 
 }
+
 
 .title {
 
@@ -111,6 +126,7 @@ body {
 					&.blink {
 					opacity: 1;
 					transition-delay: 3.0s;
+					transform: 2s;
 				}
 			}
 
@@ -123,6 +139,7 @@ body {
 				&.blink-2 {
 					opacity: 1;
 					transition-delay: 3.1s;
+					transform: 2s;
 
 				}
 			}
@@ -136,6 +153,7 @@ body {
 				&.blink-3 {
 					opacity: 1;
 					transition-delay: 3.2s;
+					transform: 2s;
 
 				}
 			}
@@ -149,6 +167,7 @@ body {
 				&.blink-4 {
 					opacity: 1;
 					transition-delay: 3.3s;
+					transform: 2s;
 
 				}
 			}
@@ -162,6 +181,7 @@ body {
 				&.blink-5 {
 					opacity: 1;
 					transition-delay: 3.4s;
+					transform: 2s;
 
 				}
 			}
@@ -175,6 +195,7 @@ body {
 				&.blink-6 {
 					opacity: 1;
 					transition-delay: 3.5s;
+					transform: 2s;
 
 				}
 			}
@@ -276,21 +297,374 @@ body {
 
 .missle-1 {
 	position: absolute;
-	top: 60%;
-	width: 100px;
+	top: 57%;
+	left: 35%;
+	width: 0%;
+	height:0%;
+	
+
+		&.move {
+			transition-delay: 4.1s;
+			transition: width 4s, height 4s;
+			width: 100px;
+    		height: 100px;
+			animation: blast 3s;
+			animation-delay: 3.0s;
+			//animation-duration: 10s;
+		}	
+}
+
+@keyframes blast {
+	0% { 
+		transform: (0,0);
+	}
+	100% {
+		transform: translate(-1000px,-1000px);
+	}
+}
+
+.missle-2 {
+	position: absolute;
+	top: 44%;
+	left: 50%;
+	width: 0%;
+	height:0%;
+	
+
+		&.move-2 {
+			transition-delay: 4.1s;
+			transition: width 4s, height 4s;
+			width: 304px;
+    		height: 200px;
+			animation: blast2 3s;
+			animation-delay: 3.0s;
+			animation-duration: 1s; 
+
+		}	
+}
+
+@keyframes blast2 {
+	0% { 
+		transform: (0,0);
+	}
+	100% {
+		transform: translate(1000px,-1000px);
+	}
+}
+
+.missle-3 {
+	position: absolute;
+	top: 58%;
+	left: 71%;
+	width: 0%;
+	height:0%;
+	
+
+		&.move-3 {
+			transition-delay: 4.1s;
+			transition: width 4s, height 4s;
+			width: 102px;
+    		height: 39px;
+			animation: blast3 3s;
+			animation-delay: 3.8s; 
+
+		}	
+}
+
+@keyframes blast3 {
+	0% { 
+		transform: (0,0);
+	}
+	100% {
+		transform: translate(1000px,-500px);
+	}
+}
+
+.missle-4 {
+	position: absolute;
+	top: 53%;
+	left: 0%;
+	width: 0%;
+	height:0%;
+	
+
+		&.move-4 {
+			transition-delay: 4.1s;
+			transition: width 4s, height 4s;
+			width: 321px;
+    		height: 176px;
+			animation: blast4 3s;
+			animation-delay: 3.6s; 
+
+		}	
+}
+
+@keyframes blast4 {
+	0% { 
+		transform: (0,0);
+	}
+	100% {
+		transform: translate(-1000px,0px);
+	}
+}
+
+.missle-5 {
+	position: absolute;
+	top: 62%;
+	left: 73%;
+	width: 0%;
+	height:0%;
+	
+
+		&.move-5 {
+			transition-delay: 4.1s;
+			transition: width 4s, height 4s;
+			width: 165px;
+    		height: 63px;
+			animation: blast5 3s;
+			animation-delay: 3.6s; 
+
+		}	
+}
+
+@keyframes blast5 {
+	0% { 
+		transform: (0,0);
+	}
+	100% {
+		transform: translate(1000px,-200px);
+	}
+}
+
+.missle-6 {
+	position: absolute;
+	top: 67%;
+	left: 68%;
+	width: 0%;
+	height:0%;
+	
+
+		&.move-6 {
+			transition-delay: 4.1s;
+			transition: width 4s, height 4s;
+			width: 67px;
+    		height: 19px;
+			animation: blast6 3s;
+			animation-delay: 3.0s;
+			animation-duration: 1s; 
+
+		}	
+}
+
+@keyframes blast6 {
+	0% { 
+		transform: (0,0);
+	}
+	100% {
+		transform: translate(1000px,-0px);
+	}
+}
+
+.missle-7 {
+	position: absolute;
+	top: 70%;
+	left: 76%;
+	width: 0%;
+	height:0%;
+	
+
+		&.move-7 {
+			transition-delay: 4.1s;
+			transition: width 4s, height 4s;
+			width: 164px;
+    		height: 70px;
+			animation: blast7 3s;
+			animation-delay: 3.3s;
+			animation-duration: 2s; 
+
+		}	
+}
+
+@keyframes blast7 {
+	0% { 
+		transform: (0,0);
+	}
+	100% {
+		transform: translate(1000px,200px);
+	}
+}
+
+.missle-8 {
+	position: absolute;
+	top: 69%;
+	left: 46%;
+	width: 0%;
+	height:0%;
+	
+
+		&.move-8 {
+			transition-delay: 4.1s;
+			transition: width 4s, height 4s;
+			width: 450px;
+    		height: 320px;
+			animation: blast8 3s;
+			animation-delay: 3.0s;
+			animation-duration: 1s; 
+
+		}	
+}
+
+@keyframes blast8 {
+	0% { 
+		transform: (0,0);
+	}
+	100% {
+		transform: translate(1000px,300px);
+	}
+}
+
+.missle-9 {
+	position: absolute;
+	top: 73%;
+	left: 27%;
+	width: 0%;
+	height:0%;
+	
+
+		&.move-9 {
+			transition-delay: 4.1s;
+			transition: width 4s, height 4s;
+			width: 166px;
+    		height: 311px;
+			animation: blast9 3s;
+			animation-delay: 3.5s; 
+
+		}	
+}
+
+@keyframes blast9 {
+	0% { 
+		transform: (0,0);
+	}
+	100% {
+		transform: translate(0px,1000px);
+	}
+}
+
+.missle-10 {
+	position: absolute;
+	top: 79%;
+	left: 24%;
+	width: 0%;
+	height:0%;
+	
+
+		&.move-10 {
+			transition-delay: 4.1s;
+			transition: width 4s, height 4s;
+			width: 36px;
+    		height: 52px;
+			animation: blast10 3s;
+			animation-delay: 3.0s; 
+
+		}	
+}
+
+@keyframes blast10 {
+	0% { 
+		transform: (0,0);
+	}
+	100% {
+		transform: translate(-200px,1000px);
+	}
 }
 
 
+.missle-11 {
+	position: absolute;
+	top: 70%;
+	left: 4%;
+	width: 0%;
+	height:0%;
+	
+
+		&.move-11 {
+			transition-delay: 4.1s;
+			transition: width 4s, height 4s;
+			width: 236px;
+    		height: 198px;
+			animation: blast11 3s;
+			animation-delay: 3.7s; 
+
+		}	
+}
+
+@keyframes blast11 {
+	0% { 
+		transform: (0,0);
+	}
+	100% {
+		transform: translate(-1000px,1000px);
+	}
+}
+
+.missle-12 {
+	position: absolute;
+	top: 70%;
+	left: 14%;
+	width: 0%;
+	height:0%;
+	
+
+		&.move-12 {
+			transition-delay: 4.1s;
+			transition: width 4s, height 4s;
+			width: 68px;
+    		height: 32px;
+			animation: blast12 3s;
+			animation-delay: 3.1s; 
+
+		}	
+}
+
+@keyframes blast12 {
+	0% { 
+		transform: (0,0);
+	}
+	100% {
+		transform: translate(-1000px,0px);
+	}
+}
 
 
+.missle-13 {
+	position: absolute;
+	top: 70%;
+	left: 5%;
+	width: 0%;
+	height:0%;
+	
 
+		&.move-13 {
+			transition-delay: 4.1s;
+			transition: width 4s, height 4s;
+			width: 68px;
+    		height: 32px;
+			animation: blast13 3s;
+			animation-delay: 3.1s;
+			animation-duration: 1s; 
 
+		}	
+}
 
-
-
-
-
-
+@keyframes blast13 {
+	0% { 
+		transform: (0,0);
+	}
+	100% {
+		transform: translate(-1000px,0px);
+	}
+}
 
 
 
